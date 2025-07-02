@@ -95,8 +95,8 @@ export const PLAYLIST_BY_SLUG_QUERY =
 
 
 // You can put this in your query file if you want to reuse it:
-export const STARTUP_AUTHOR_QUERY = `
-  *[_type == "startup" && author._id == $authorId && _id != $id]{
-    _id, title, description, image, author, category, _createdAt, pitch
-  }
-`;
+// export const STARTUP_AUTHOR_QUERY = `
+//   *[_type == "startup" && author._id == $authorId && _id != $id]{
+//     _id, title, description, image, author, category, _createdAt, pitch
+//   }
+// `;
