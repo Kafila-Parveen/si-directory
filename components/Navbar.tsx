@@ -19,7 +19,7 @@ const Navbar = async() => {
             {session && session?.user ? (
             <>
 
-            <Link href="/" aria-label="Home" className="flex items-center gap-1 hover:text-red-500 transition-colors">
+            <Link href="/" aria-label="Home" className="flex items-center gap-1 hover:text-blue-950 transition-colors">
               <Home className="size-6 inline sm:hidden" />
               <span className="hidden sm:inline">Home</span>
             </Link>

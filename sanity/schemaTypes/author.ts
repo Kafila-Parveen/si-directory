@@ -1,5 +1,5 @@
 import { defineField, defineType } from "sanity";
-import { UserIcon } from "@sanity/icons";
+import { UserIcon } from "lucide-react";
 // This file defines the schema for the "author" document in Sanity.
 
 export const author = defineType({

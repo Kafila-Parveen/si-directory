@@ -42,7 +42,7 @@ const StartupCard = ({ post }: { post: StartupCardType }) => {
              height={48} 
              className="rounded-full"/>
             </Link>
-
+{/* if author image not shown below code will be used */}
             {/* <Link href={`/user/${author?._id}`}>
   {author?.image ? (
     <Image
